@@ -196,7 +196,6 @@ const testTransactionsMonitoring = () => {
       connections: 10, //10
       pipelining: 10, //10
       duration: 60, //20
-      amount: 200,
       workers: 4, //4
       requests: data.map((i) => {
         return {
