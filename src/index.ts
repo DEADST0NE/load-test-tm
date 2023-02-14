@@ -193,7 +193,7 @@ const testTransactionsMonitoring = () => {
     {
       url,
       title: "Transactions monitoring",
-      connections: 10, //10
+      connections: 100, //10
       pipelining: 10, //10
       duration: 60, //20
       workers: 4, //4
